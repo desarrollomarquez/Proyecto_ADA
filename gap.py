@@ -3,8 +3,11 @@ gaps = 0
 for i in len(gap):
   print(gap[i])
   if(gap[i]== 0):
-	gaps += 1
-	print(gaps)
+    gaps += 1
+    print(gaps)
+  if(gaps > 2)
+    print("Existe un gap")
+	
 
 	
   
